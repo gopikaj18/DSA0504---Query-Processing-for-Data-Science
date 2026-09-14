@@ -1,0 +1,9 @@
+import pandas as pd
+
+df = pd.DataFrame({
+    'name': ['Anastasia', 'Dima', 'Katherine', 'James']
+})
+
+result = df['name'].str.find('a')
+
+print(result)
